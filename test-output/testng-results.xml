@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-11T15:59:32 IST" name="Suite" finished-at="2023-02-11T16:01:44 IST" duration-ms="131985">
+    <groups>
+    </groups>
+    <test started-at="2023-02-11T15:59:32 IST" name="Chrome Test" finished-at="2023-02-11T16:01:44 IST" duration-ms="131985">
+      <class name="TEST.testClass">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T15:59:32 IST" name="openBrowser" finished-at="2023-02-11T15:59:37 IST" duration-ms="5211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="hitTheUrl()[pri:0, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T15:59:37 IST" name="hitTheUrl" finished-at="2023-02-11T15:59:56 IST" duration-ms="18793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitTheUrl -->
+        <test-method is-config="true" signature="loginDetails()[pri:0, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T15:59:56 IST" name="loginDetails" finished-at="2023-02-11T16:00:01 IST" duration-ms="5651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDetails -->
+        <test-method signature="click1()[pri:1, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T16:00:01 IST" name="click1" finished-at="2023-02-11T16:00:17 IST" duration-ms="15655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click1 -->
+        <test-method is-config="true" signature="logOutWebsite(org.testng.ITestResult)[pri:0, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T16:00:17 IST" name="logOutWebsite" finished-at="2023-02-11T16:00:25 IST" duration-ms="8187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click1 status=SUCCESS method=testClass.click1()[pri:1, instance:TEST.testClass@55a147cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutWebsite -->
+        <test-method is-config="true" signature="loginDetails()[pri:0, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T16:00:25 IST" name="loginDetails" finished-at="2023-02-11T16:00:30 IST" duration-ms="4469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDetails -->
+        <test-method signature="click2()[pri:2, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T16:00:30 IST" name="click2" finished-at="2023-02-11T16:00:44 IST" duration-ms="14209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click2 -->
+        <test-method is-config="true" signature="logOutWebsite(org.testng.ITestResult)[pri:0, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T16:00:44 IST" name="logOutWebsite" finished-at="2023-02-11T16:00:52 IST" duration-ms="8194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click2 status=SUCCESS method=testClass.click2()[pri:2, instance:TEST.testClass@55a147cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutWebsite -->
+        <test-method is-config="true" signature="loginDetails()[pri:0, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T16:00:52 IST" name="loginDetails" finished-at="2023-02-11T16:00:57 IST" duration-ms="4559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDetails -->
+        <test-method signature="click3()[pri:3, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T16:00:57 IST" name="click3" finished-at="2023-02-11T16:01:10 IST" duration-ms="12987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click3 -->
+        <test-method is-config="true" signature="logOutWebsite(org.testng.ITestResult)[pri:0, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T16:01:10 IST" name="logOutWebsite" finished-at="2023-02-11T16:01:18 IST" duration-ms="8188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click3 status=SUCCESS method=testClass.click3()[pri:3, instance:TEST.testClass@55a147cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutWebsite -->
+        <test-method is-config="true" signature="loginDetails()[pri:0, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T16:01:18 IST" name="loginDetails" finished-at="2023-02-11T16:01:22 IST" duration-ms="4460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDetails -->
+        <test-method signature="click4()[pri:4, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T16:01:22 IST" name="click4" finished-at="2023-02-11T16:01:35 IST" duration-ms="12888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click4 -->
+        <test-method is-config="true" signature="logOutWebsite(org.testng.ITestResult)[pri:0, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T16:01:35 IST" name="logOutWebsite" finished-at="2023-02-11T16:01:43 IST" duration-ms="8196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click4 status=SUCCESS method=testClass.click4()[pri:4, instance:TEST.testClass@55a147cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutWebsite -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TEST.testClass@55a147cc]" started-at="2023-02-11T16:01:43 IST" name="closeTheBrowser" finished-at="2023-02-11T16:01:44 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- TEST.testClass -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>
